@@ -123,6 +123,7 @@ h2 {
   margin-top: 25px;
   padding: 30px;
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 button{
