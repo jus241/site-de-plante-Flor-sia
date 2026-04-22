@@ -1,0 +1,69 @@
+/* :root{
+    
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aqua;
+  padding: 15px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.cart-shopping {
+  height: 30px;
+  width: 30px;
+}
+
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #1b4332;
+}
+
+nav {
+  display: flex;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  transition: 0.5s;
+  
+}
+
+ul a:hover{
+    color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+ transition: 0.5s;
+}
+
+
+main {
+  margin: 40px;
+}

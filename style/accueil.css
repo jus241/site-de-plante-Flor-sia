@@ -1,0 +1,229 @@
+/* :root{
+    
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aqua;
+  padding: 15px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.cart-shopping {
+  height: 30px;
+  width: 30px;
+}
+
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #1b4332;
+}
+
+nav {
+  display: flex;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  transition: 0.5s;
+  
+}
+
+ul a:hover{
+    color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+ transition: 0.5s;
+}
+
+
+main {
+  margin: 40px;
+}
+
+/* presentation */
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  text-align: center;
+  justify-content: center;
+  background-image: url(../images/font-presentation.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+}
+
+h1 {
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.paragraphe-presentation {
+  color: aliceblue;
+  padding-top: 20px;
+}
+
+/* Les plantes les plus aimées */
+
+.les-plantes-les-plus-aimées{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    box-shadow: 0px 2px 3px rgb(56, 56, 55);
+    border-radius: 20px;
+    padding: 2em;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.2em;
+  font-weight: 700;
+}
+
+.image{
+    height: 12rem;
+    border-radius: 29px;
+}
+
+.principal{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  margin-top: 25px;
+  padding: 30px;
+  gap: 30px;
+}
+
+button{
+    padding: 7px 9px;
+    border-radius: 9px;
+    border: none;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: aquamarine;
+}
+
+
+.box{
+    display: block;
+    text-align: center;
+    gap: 30px;
+    padding: 1em;
+    box-shadow: 1px 1px 3px rgb(141, 90, 90);
+    border-radius: 20px;
+}
+
+.nom-plantes{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    color: black;
+}
+
+.detail-para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.voir{
+    color: #000000;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.voir:hover{
+    color: rgb(2, 64, 251);
+}
+
+/* partenaire */
+
+
+.partenaire{
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+}
+
+
+.Partenaire-titre{
+    align-items: center;
+    text-align: center;
+
+}
+
+
+marquee img {
+    height: 100px; 
+    width: auto;   
+    margin-top: 20px;
+    gap: 20px;
+    border-radius: 12px;
+}
+
+
+/* footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  margin-top: auto; 
+}
+
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.reseau {
+  display: flex;
+  gap: 15px; /* Espace entre les icônes */
+}
+
+.reseau-footer img {
+  width: 24px; /* Taille des icônes */
+  height: 24px;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
