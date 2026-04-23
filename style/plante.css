@@ -1,0 +1,22 @@
+.averticement{
+    margin-top: 30px;
+    box-shadow: 0px 1px 2px black;
+    border-radius: 9px;
+    padding: 2em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    line-height: 30px;
+    transition: 0.4s ease;
+}
+
+.averticement:hover{
+    background-color: rgba(255, 131, 131, 0.858);
+}
+
+.averticement-titre{
+    color: red;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
